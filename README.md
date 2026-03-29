@@ -1,5 +1,10 @@
 # Big-Beautiful-Board
 
+
+![main_images](Images/main_images.jpeg)
+
+
+
 The Big-Beautiful-Board repository is for Aarhus Business Academys "it-teknolog" students. This  repository consists mainly of code for the ITEK development board for Raspberry Pi Pico 2 W.
 
 
