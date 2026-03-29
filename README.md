@@ -1,4 +1,4 @@
-# Big-Beautiful-Board
+![right_light](https://github.com/user-attachments/assets/c73cbc06-9057-4072-a452-ba5197e05a8e)# Big-Beautiful-Board
 
 
 ![main_images](/Images/main_images.jpg)
@@ -12,6 +12,13 @@ The Big-Beautiful-Board repository is for Aarhus Business Academys "it-teknolog"
 The Big Beautiful Boards coding language is primarily Micropython. However, if Python is used, it will be clarified).
 
 * The code is under the [Code for the Big-Beautiful-Board](https://github.com/CN-Thrige/Big-Beautiful-Board/tree/main/Code%20for%20the%20Big-Beautiful-Board).
+
+#### Example - Checking program 2: 
+If button 1 is pressed the lights on the right turn on: 
+![right_light](/Images/right_light.jpg)
+
+if button 2 is pressed the lights on the left turn on and the lights on the right turn off
+![left_light](/Images/left_light.jpg)
 
 ### Python IDE:
 This repository is part of the "EAAA MircoPython Course to Raspberrypi Pico" course in Pycharm. 
