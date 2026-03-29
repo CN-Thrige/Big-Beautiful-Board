@@ -1,7 +1,7 @@
 # Big-Beautiful-Board
 
 
-![main_images](Images/main_images.jpeg)
+![main_images](Big-Beautiful-Board/Images/main_images.jpeg)
 
 
 
