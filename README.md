@@ -7,7 +7,7 @@ The Big-Beautiful-Board repository is for Aarhus Business Academys "it-teknolog"
 ### Coding language for the Big-Beautiful-Board
 The Big Beautiful Boards coding language is primarily Micropython. However, if Python is used, it will be clarified).
 
-* The code is under the BBB-files.
+* The code is under the [Code for the Big-Beautiful-Board](https://github.com/CN-Thrige/Big-Beautiful-Board/tree/main/Code%20for%20the%20Big-Beautiful-Board).
 
 
 ### Simulations for the Big-Beautiful-Board:
