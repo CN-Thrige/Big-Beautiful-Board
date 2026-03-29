@@ -39,3 +39,5 @@ To simulate Raspberry Pi Pico before applying it to real world scenarios on the 
 * 4 330Ω (ohm) resistors: https://www.digikey.com/en/products/detail/yageo/MFR-25FRF52-330R/9139001
   
 * 2 220Ω (ohm) resistors: https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/CF1-2CT52R221J/13537410
+
+* more parts will be added in the future 
