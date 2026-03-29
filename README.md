@@ -28,6 +28,14 @@ To simulate Raspberry Pi Pico before applying it to real world scenarios on the 
 - https://wokwi.com/
 
 ### Part list:  
-* Raspberry Pi Pico 2 W: https://raspberrypi.dk/produkt/raspberry-pi-pico-2-w/
+* 1 Raspberry Pi Pico 2 W: https://raspberrypi.dk/produkt/raspberry-pi-pico-2-w/
 
-* LED Indication: https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/151051RS11000/4490012
+* 2 Red LED Indication: https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/151051RS11000/4490012
+
+* 2 Yellow LED Indication: https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/151051YS04000/4490018
+  
+* 2 GreenLED Indication: https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/151051VS04000/4490015
+
+* 4 330Ω (ohm) resistors: https://www.digikey.com/en/products/detail/yageo/MFR-25FRF52-330R/9139001
+  
+* 2 220Ω (ohm) resistors: https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/CF1-2CT52R221J/13537410
