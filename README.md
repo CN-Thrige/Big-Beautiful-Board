@@ -8,7 +8,7 @@ The Big Beautiful Boards coding language is primarily Micropython. However, if P
 
 * The code is under the [Code for the Big-Beautiful-Board](https://github.com/CN-Thrige/Big-Beautiful-Board/tree/main/Code%20for%20the%20Big-Beautiful-Board).
 
-###Python IDE:
+### Python IDE:
 This repository is part of the "EAAA MircoPython Course to Raspberrypi Pico" course in Pycharm. 
 
 ### Simulations for the Big-Beautiful-Board:
