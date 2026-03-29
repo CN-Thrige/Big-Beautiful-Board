@@ -40,4 +40,8 @@ To simulate Raspberry Pi Pico before applying it to real world scenarios on the 
   
 * 2 220Ω (ohm) resistors: https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/CF1-2CT52R221J/13537410
 
+* 2 buttons: https://www.digikey.com/en/products/detail/adafruit-industries-llc/367/10669771
+
+* 2 Phoenix Contact MKDS 1/10-3.5 Series PCB Terminal Block: https://export.rsdelivers.com/product/phoenix-contact/1751329/phoenix-contact-mkds-1/10-35-series-pcb-terminal-block-10-contact-35mm-1/1703807
+
 * more parts will be added in the future 
