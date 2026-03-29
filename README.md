@@ -1,4 +1,4 @@
-![right_light](https://github.com/user-attachments/assets/c73cbc06-9057-4072-a452-ba5197e05a8e)# Big-Beautiful-Board
+# Big-Beautiful-Board
 
 
 ![main_images](/Images/main_images.jpg)
