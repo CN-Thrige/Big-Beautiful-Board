@@ -29,3 +29,5 @@ To simulate Raspberry Pi Pico before applying it to real world scenarios on the 
 
 ### Part list:  
 * Raspberry Pi Pico 2 W: https://raspberrypi.dk/produkt/raspberry-pi-pico-2-w/
+
+* LED Indication: https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/151051RS11000/4490012
