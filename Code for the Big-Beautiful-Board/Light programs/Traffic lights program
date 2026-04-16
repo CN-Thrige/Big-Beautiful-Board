@@ -1,0 +1,77 @@
+
+from machine import Pin
+from time import sleep
+
+time = 2
+
+button1 = Pin(6, Pin.IN, Pin.PULL_UP)
+button2 = Pin(7, Pin.IN, Pin.PULL_UP)
+
+ledRL = Pin(0, Pin.OUT)
+ledYL = Pin(1, Pin.OUT)
+ledGL = Pin(2, Pin.OUT)
+
+ledRR = Pin(3, Pin.OUT)
+ledYR = Pin(4, Pin.OUT)
+ledGR = Pin(5, Pin.OUT)
+
+#Slukker alle LED'erne
+ledRL.off()
+ledYL.off()
+ledGL.off()
+
+ledRR.off()
+ledYR.off()
+ledGR.off()
+
+#Pause tider mellem skiftene
+redtime = 1
+yellowtime = 1
+greentime = 1
+
+
+def led_red_right():
+    ledRR.on()
+    sleep(redtime)
+
+def led_yellow_left():
+    ledYL.on()
+    sleep(yellowtime)
+   
+
+def led_green_left():
+    ledGL.on()
+    sleep(greentime)
+
+def led_yellow_right():
+    ledYL.on()
+    sleep(yellowtime)
+
+def led_red_right2():
+    ledRR.on()
+    sleep(redtime)
+
+def led_yellow_left2():
+    ledYL.on()
+    sleep(yellowtime)
+
+def led_green_left2():
+    ledGL.on()
+    sleep(greentime)
+
+def led_yellow_left3():
+    ledYL.on()
+    sleep(yellowtime)
+
+
+
+while True:
+    led_red_right()
+    led_yellow_left()
+    led_green_left()
+
+    led_yellow_right()
+    led_red_right2()
+    led_yellow_left2()
+    led_green_left2()
+    
