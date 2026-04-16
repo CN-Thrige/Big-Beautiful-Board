@@ -21,55 +21,31 @@ def  main():
 
     while True:
         if button1.value() == 0:
-            green_r()
+            green()
+            sleep(time)
 
-        if button1.value() == 0:
-            yellow_r()
+        if button1.value() == 1:
+            yellow()
+            sleep(time)
 
-
-        if button1.value() == 0:
-            red_r()
-            
-        if button2.value() == 0:
-            green_l()
 
         if button2.value() == 0:
-            yellow_l()
+            red()
+            sleep(time)
 
-        if button2.value() == 0:
-            red_l()
-
-def green_r():
+def green():
     ledGR.on()
-    sleep(0.5)
+    sleep(1)
     ledGR.off()
 
-def yellow_r ():
+def yellow ():
     ledYR.on()
-    sleep(0.5)
+    sleep(1)
     ledYR.off()
 
-def red_r():
+def red():
     ledRR.on()
-    sleep(0.5)
+    sleep(1)
     ledRR.off()
-    
-
-def green_l():
-    ledGL.on()
-    sleep(0.5)
-    ledGL.off()
-
-def yellow_l():
-    ledYL.on()
-    sleep(0.5)
-    ledYL.off()
-
-def red_l():
-    ledRL.on()
-    sleep(0.5)
-    ledRL.off()
-
-
 
 main()
