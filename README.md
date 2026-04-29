@@ -24,7 +24,7 @@ if button 2 is pressed the lights on the left turn on and the lights on the righ
 ### Contributing
 You can add your own code to the community folder
 
-[Community folder]([https://github.com/CN-Thrige/Big-Beautiful-Board/tree/main/Code%20for%20the%20Big-Beautiful-Board](https://github.com/CN-Thrige/Big-Beautiful-Board/tree/151adfdf514ac80d4795891eae97bf5695da9376/Community%20folder).
+[Community folder](https://github.com/CN-Thrige/Big-Beautiful-Board/tree/151adfdf514ac80d4795891eae97bf5695da9376/Community%20folder).
 
 
 ### Python IDE:
