@@ -1,0 +1,33 @@
+from time import sleep
+from RocketNumber import *
+
+while True:
+    
+    sleep_function()
+    nine()
+    sleep(1)
+    sleep_function()
+    eight()
+    sleep(1)
+    sleep_function()
+    seven()
+    sleep(1)
+    sleep_function()
+    six()
+    sleep(1)
+    sleep_function()
+    five()
+    sleep(1)
+    sleep_function()
+    four()
+    sleep(1)
+    sleep_function()
+    three()
+    sleep(1)
+    sleep_function()
+    two()
+    sleep(1)
+    sleep_function()
+    one()
+    sleep(1)
+    sleep_function()
