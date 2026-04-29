@@ -22,14 +22,20 @@ if button 2 is pressed the lights on the left turn on and the lights on the righ
 ![left_light](/Images/left_light.jpg)
 
 ### Contributing
-You can add your own code to the community folder: 
+You can add your own code to the community folder
+
+[Community folder]([https://github.com/CN-Thrige/Big-Beautiful-Board/tree/main/Code%20for%20the%20Big-Beautiful-Board](https://github.com/CN-Thrige/Big-Beautiful-Board/tree/151adfdf514ac80d4795891eae97bf5695da9376/Community%20folder).
+
 
 ### Python IDE:
 This repository is part of the "EAAA MircoPython Course to Raspberrypi Pico" course in Pycharm. 
 
+
+
 ### Simulations for the Big-Beautiful-Board:
 To simulate Raspberry Pi Pico before applying it to real world scenarios on the Big Beuatiful Board. In ITEK will use "Wokwi" for simulations. 
 - https://wokwi.com/
+
 
 ### Part list:  
 * 1 Raspberry Pi Pico 2 W: https://raspberrypi.dk/produkt/raspberry-pi-pico-2-w/
