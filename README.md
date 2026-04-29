@@ -8,6 +8,7 @@
 The Big-Beautiful-Board repository is for Aarhus Business Academys "it-teknolog" students. This  repository consists mainly of code for the ITEK development board for Raspberry Pi Pico 2 W.
 
 
+
 ### Coding language for the Big-Beautiful-Board
 The Big Beautiful Boards coding language is primarily Micropython. However, if Python is used, it will be clarified).
 
@@ -19,6 +20,9 @@ If button 1 is pressed the lights on the right turn on:
 
 if button 2 is pressed the lights on the left turn on and the lights on the right turn off
 ![left_light](/Images/left_light.jpg)
+
+### Contributing
+You can add your own code to the community folder: 
 
 ### Python IDE:
 This repository is part of the "EAAA MircoPython Course to Raspberrypi Pico" course in Pycharm. 
