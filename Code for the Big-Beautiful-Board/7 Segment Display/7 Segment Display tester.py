@@ -12,12 +12,12 @@ led7 = Pin(14, Pin.OUT) # led 7
 led8 = Pin(15, Pin.OUT) # led 8
 
 
-LedSyvListe = [led1, led2, led3, led4, led5, led6, led7, led8]
+led_lst  = [led1, led2, led3, led4, led5, led6, led7, led8]
 
 while True:
-    for led in LedSyvListe:
+    for led in led_lst:
         led.off()
 
-    for led in LedSyvListe:
+    for led in led_lst:
         led.on()
         sleep(2)
