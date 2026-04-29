@@ -22,9 +22,7 @@ if button 2 is pressed the lights on the left turn on and the lights on the righ
 ![left_light](/Images/left_light.jpg)
 
 ### Contributing
-You can add your own code to the community folder
-
-[Community folder](https://github.com/CN-Thrige/Big-Beautiful-Board/tree/151adfdf514ac80d4795891eae97bf5695da9376/Community%20folder).
+You can add your own code to the [Community folder](https://github.com/CN-Thrige/Big-Beautiful-Board/tree/151adfdf514ac80d4795891eae97bf5695da9376/Community%20folder).
 
 
 ### Python IDE:
