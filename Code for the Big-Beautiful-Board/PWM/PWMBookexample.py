@@ -5,7 +5,7 @@ from machine import Pin, PWM
 from time import sleep
 
 # Set up PWM Pin
-led = machine.Pin(2)
+led = machine.Pin(2) # turn on left green light 
 led_pwm = PWM(led)
 duty_step = 129  # Step size for changing the duty cycle
 
