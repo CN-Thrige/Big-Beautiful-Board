@@ -1,7 +1,7 @@
 # Big-Beautiful-Board
 
 
-![main_images](/Images/main_images.jpg)
+![main_images](/images/main_images.jpg)
 
 
 
@@ -18,10 +18,10 @@ The Big Beautiful Boards coding language is primarily Micropython. However, if P
 
 #### Example - Checking program 2: 
 If button 1 is pressed the lights on the right turn on: 
-![right_light](/Images/right_light.jpg)
+![right_light](/images/right_light.jpg)
 
 if button 2 is pressed the lights on the left turn on and the lights on the right turn off
-![left_light](/Images/left_light.jpg)
+![left_light](/images/left_light.jpg)
 
 
 ### Python IDE:
