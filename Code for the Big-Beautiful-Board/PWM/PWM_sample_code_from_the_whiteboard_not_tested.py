@@ -1,4 +1,4 @@
-#WARNING THIS IS NOT TESTED CODE. DO NOT USE IT!
+#WARNING THIS IS NOT TESTED CODE.
 
 from machine import Pin
 from time import sleep
