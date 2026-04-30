@@ -1,0 +1,7 @@
+NOTES FOR PULSE WIDTH MODULATION
+
+* Use the oscilloscope to measure the led-diode, which value is 0.
+  On the slide for PWM on canvas it is 1 (at least for the 30-04-2026). 
+
+* ...
+
