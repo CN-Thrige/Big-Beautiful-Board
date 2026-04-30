@@ -14,15 +14,14 @@ The Big Beautiful Boards coding language is primarily Micropython. However, if P
 
 * The code is under the [Code for the Big-Beautiful-Board](https://github.com/CN-Thrige/Big-Beautiful-Board/tree/main/Code%20for%20the%20Big-Beautiful-Board).
 
+* You can add your own code to the [Community folder](https://github.com/CN-Thrige/Big-Beautiful-Board/tree/151adfdf514ac80d4795891eae97bf5695da9376/Community%20folder).
+
 #### Example - Checking program 2: 
 If button 1 is pressed the lights on the right turn on: 
 ![right_light](/Images/right_light.jpg)
 
 if button 2 is pressed the lights on the left turn on and the lights on the right turn off
 ![left_light](/Images/left_light.jpg)
-
-### Contributing
-You can add your own code to the [Community folder](https://github.com/CN-Thrige/Big-Beautiful-Board/tree/151adfdf514ac80d4795891eae97bf5695da9376/Community%20folder).
 
 
 ### Python IDE:
