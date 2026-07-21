@@ -2,6 +2,8 @@
 from machine import Pin, PWM
 from time import sleep
 
+#this program gave 15 points doing the exam 
+
 #button1 = Pin(6, Pin.IN, Pin.PULL_UP)
 
 led = Pin(0, Pin.OUT)
