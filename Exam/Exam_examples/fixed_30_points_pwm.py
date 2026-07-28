@@ -9,19 +9,22 @@ led_pwm1.freq(PWM_CARRIER)
 led_pwm2.freq(PWM_CARRIER)
 
 
-def get_int(prompt, lo, hi):
+def get_int(prompt, low, high):
     while True:
         try:
-            val = int(input(prompt))
-            if lo <= val <= hi:
-                return val
-            print(f"Enter a value between {lo} and {hi}.")
+            value = int(input(prompt))
+            
+            if low <= value <= high:
+                return value
+            
+            print(f"> Enter a value between {low} and {high}: \n")
+            
         except ValueError:
-            print("Please type a whole number.")
+            print("> ERROR. Please type a whole number.\n")
 
 
-frequency = get_int("Blink frequency (0-20 Hz, 0 = no blinking): ", 0, 20)
-brightness_pct = get_int("Brightness (0-100%): ", 0, 100)
+frequency = get_int("> Enter a frequency between 0 to 20Hz: ", 0, 20)
+brightness_pct = get_int("> Enter a brightness between 0-100%: ", 0, 100)
 
 duty = int(brightness_pct / 100 * 65535)
 
@@ -34,7 +37,7 @@ def set_leds(on):
 
 try:
     if frequency == 0:
-        set_leds(True)          # solid, at whatever brightness was chosen (0% = off)
+        set_leds(True) # solid, at whatever brightness was chosen (0% = off)
         while True:
             sleep(1)
     else:
