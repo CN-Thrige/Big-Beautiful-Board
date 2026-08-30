@@ -8,7 +8,7 @@ a. mens knappen er trykket skal:
 b. når knappen er sluppet skal 
 i. lysdioden blinker i modfase - 15 points 
 
-## først kodeblok uden knap - 10 points 
+## 10 points 
 
     from machine import Pin
     from time import sleep
@@ -26,5 +26,5 @@ i. lysdioden blinker i modfase - 15 points
             p1.off()
         
     
-## med knappen giver 25 points 
+## 25 points 
 
