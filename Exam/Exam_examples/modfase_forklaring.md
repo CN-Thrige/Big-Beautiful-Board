@@ -9,6 +9,7 @@ b. når knappen er sluppet skal
 i. lysdioden blinker i modfase - 15 points 
 
 ## først kodeblok uden knap - 10 points 
+
 from machine import Pin
 from time import sleep
 p1 = Pin(0, Pin.OUT)  # red
