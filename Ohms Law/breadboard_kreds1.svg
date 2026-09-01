@@ -1,0 +1,85 @@
+<svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="620" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Praktisk opsætning: R1 i serie med R2 || R3</text>
+
+  <!-- Breadboard body -->
+  <rect x="150" y="70" width="500" height="480" rx="10" fill="#f2ead9" stroke="#c9bfa1" stroke-width="2"/>
+
+  <!-- Power supply box -->
+  <rect x="20" y="240" width="90" height="110" rx="6" fill="#3b3f46"/>
+  <text x="65" y="280" text-anchor="middle" font-size="13" fill="#fff">Strøm-</text>
+  <text x="65" y="296" text-anchor="middle" font-size="13" fill="#fff">forsyning</text>
+  <text x="65" y="316" text-anchor="middle" font-size="12" fill="#ffb3b3">+ Vin</text>
+  <text x="65" y="334" text-anchor="middle" font-size="12" fill="#9fc6ff">GND</text>
+
+  <!-- Wires from PSU to rails -->
+  <path d="M110,260 C130,260 130,140 190,140" stroke="#e03131" stroke-width="3" fill="none"/>
+  <path d="M110,330 C130,330 130,540 190,540" stroke="#1c1c1c" stroke-width="3" fill="none"/>
+
+  <!-- Row 1: V+ rail (full width) -->
+  <line x1="190" y1="140" x2="610" y2="140" stroke="#e03131" stroke-width="4"/>
+  <text x="620" y="145" font-size="13" fill="#e03131" font-weight="bold">V+ (Vin)</text>
+  <g fill="#e03131">
+    <circle cx="220" cy="140" r="4"/><circle cx="260" cy="140" r="4"/><circle cx="300" cy="140" r="4"/>
+    <circle cx="340" cy="140" r="4"/><circle cx="380" cy="140" r="4"/><circle cx="420" cy="140" r="4"/>
+    <circle cx="460" cy="140" r="4"/><circle cx="500" cy="140" r="4"/><circle cx="540" cy="140" r="4"/>
+  </g>
+
+  <!-- Row 2: Node A (after R1, before R2/R3) -->
+  <line x1="190" y1="330" x2="610" y2="330" stroke="#868e96" stroke-width="4"/>
+  <text x="620" y="335" font-size="13" fill="#495057" font-weight="bold">Node A</text>
+  <text x="620" y="352" font-size="11" fill="#495057">(V_R2 = V_R3)</text>
+  <g fill="#868e96">
+    <circle cx="220" cy="330" r="4"/><circle cx="260" cy="330" r="4"/><circle cx="300" cy="330" r="4"/>
+    <circle cx="340" cy="330" r="4"/><circle cx="380" cy="330" r="4"/><circle cx="420" cy="330" r="4"/>
+    <circle cx="460" cy="330" r="4"/><circle cx="500" cy="330" r="4"/><circle cx="540" cy="330" r="4"/>
+  </g>
+
+  <!-- Row 3: GND rail (full width) -->
+  <line x1="190" y1="540" x2="610" y2="540" stroke="#1c1c1c" stroke-width="4"/>
+  <text x="620" y="545" font-size="13" fill="#1c1c1c" font-weight="bold">GND (0V)</text>
+  <g fill="#1c1c1c">
+    <circle cx="220" cy="540" r="4"/><circle cx="260" cy="540" r="4"/><circle cx="300" cy="540" r="4"/>
+    <circle cx="340" cy="540" r="4"/><circle cx="380" cy="540" r="4"/><circle cx="420" cy="540" r="4"/>
+    <circle cx="460" cy="540" r="4"/><circle cx="500" cy="540" r="4"/><circle cx="540" cy="540" r="4"/>
+  </g>
+
+  <!-- Resistor helper: draw as rounded rect body with leads -->
+  <!-- R1: from V+ (x=260) to Node A (x=260) -->
+  <line x1="260" y1="140" x2="260" y2="215" stroke="#333" stroke-width="3"/>
+  <rect x="242" y="215" width="36" height="90" rx="8" fill="#e8d7a8" stroke="#8a6d3b" stroke-width="2"/>
+  <line x1="260" y1="305" x2="260" y2="330" stroke="#333" stroke-width="3"/>
+  <text x="260" y="265" text-anchor="middle" font-size="14" font-weight="bold" fill="#5c4522" transform="rotate(90 260 265)"> </text>
+  <text x="300" y="265" font-size="15" font-weight="bold" fill="#333">R1</text>
+
+  <!-- R2: from Node A (x=380) to GND (x=380) -->
+  <line x1="380" y1="330" x2="380" y2="395" stroke="#333" stroke-width="3"/>
+  <rect x="362" y="395" width="36" height="90" rx="8" fill="#e8d7a8" stroke="#8a6d3b" stroke-width="2"/>
+  <line x1="380" y1="485" x2="380" y2="540" stroke="#333" stroke-width="3"/>
+  <text x="415" y="445" font-size="15" font-weight="bold" fill="#333">R2</text>
+
+  <!-- R3: from Node A (x=480) to GND (x=480) -->
+  <line x1="480" y1="330" x2="480" y2="395" stroke="#333" stroke-width="3"/>
+  <rect x="462" y="395" width="36" height="90" rx="8" fill="#e8d7a8" stroke="#8a6d3b" stroke-width="2"/>
+  <line x1="480" y1="485" x2="480" y2="540" stroke="#333" stroke-width="3"/>
+  <text x="515" y="445" font-size="15" font-weight="bold" fill="#333">R3</text>
+
+  <!-- Multimeter measuring across R2 (voltage) -->
+  <circle cx="770" cy="410" r="45" fill="#222" stroke="#000" stroke-width="2"/>
+  <text x="770" y="405" text-anchor="middle" font-size="13" fill="#0f0">V</text>
+  <text x="770" y="422" text-anchor="middle" font-size="10" fill="#0f0">DC</text>
+  <path d="M735,395 C 640,395 400,340 380,335" stroke="#e03131" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+  <path d="M735,425 C 640,470 400,535 380,538" stroke="#1c1c1c" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+  <text x="770" y="470" text-anchor="middle" font-size="12" fill="#333">Multimeter</text>
+  <text x="770" y="485" text-anchor="middle" font-size="11" fill="#333">måler V_R2</text>
+
+  <!-- Legend -->
+  <rect x="150" y="565" width="14" height="14" fill="#e03131"/>
+  <text x="170" y="577" font-size="12" fill="#333">Ledning til V+</text>
+  <rect x="300" y="565" width="14" height="14" fill="#1c1c1c"/>
+  <text x="320" y="577" font-size="12" fill="#333">Ledning til GND</text>
+  <rect x="450" y="565" width="14" height="14" fill="#e8d7a8" stroke="#8a6d3b"/>
+  <text x="470" y="577" font-size="12" fill="#333">Modstand (resistor)</text>
+</svg>

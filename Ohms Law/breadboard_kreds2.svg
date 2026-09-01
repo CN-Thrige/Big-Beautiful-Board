@@ -1,0 +1,79 @@
+<svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="620" fill="#ffffff"/>
+
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Praktisk opsætning: (R1+R2) parallel med (R3+R4)</text>
+
+  <!-- Breadboard body -->
+  <rect x="150" y="70" width="500" height="480" rx="10" fill="#f2ead9" stroke="#c9bfa1" stroke-width="2"/>
+
+  <!-- Power supply -->
+  <rect x="20" y="240" width="90" height="110" rx="6" fill="#3b3f46"/>
+  <text x="65" y="280" text-anchor="middle" font-size="13" fill="#fff">Strøm-</text>
+  <text x="65" y="296" text-anchor="middle" font-size="13" fill="#fff">forsyning</text>
+  <text x="65" y="316" text-anchor="middle" font-size="12" fill="#ffb3b3">+ V1</text>
+  <text x="65" y="334" text-anchor="middle" font-size="12" fill="#9fc6ff">GND</text>
+
+  <path d="M110,260 C130,260 130,140 190,140" stroke="#e03131" stroke-width="3" fill="none"/>
+  <path d="M110,330 C130,330 130,540 190,540" stroke="#1c1c1c" stroke-width="3" fill="none"/>
+
+  <!-- Row: V+ rail full width (shared by both branches) -->
+  <line x1="190" y1="140" x2="610" y2="140" stroke="#e03131" stroke-width="4"/>
+  <text x="620" y="145" font-size="13" fill="#e03131" font-weight="bold">V+ (V1)</text>
+  <g fill="#e03131">
+    <circle cx="230" cy="140" r="4"/><circle cx="270" cy="140" r="4"/><circle cx="310" cy="140" r="4"/>
+    <circle cx="430" cy="140" r="4"/><circle cx="470" cy="140" r="4"/><circle cx="510" cy="140" r="4"/>
+  </g>
+
+  <!-- Node B: only left half (between R1 and R2) -->
+  <line x1="190" y1="300" x2="330" y2="300" stroke="#4263eb" stroke-width="4"/>
+  <text x="335" y="305" font-size="12" fill="#4263eb" font-weight="bold">Node B (venstre gren)</text>
+  <circle cx="270" cy="300" r="4" fill="#4263eb"/>
+
+  <!-- Node D: only right half (between R3 and R4) -->
+  <line x1="430" y1="300" x2="610" y2="300" stroke="#2f9e44" stroke-width="4"/>
+  <text x="480" y="285" font-size="12" fill="#2f9e44" font-weight="bold">Node D (højre gren)</text>
+  <circle cx="470" cy="300" r="4" fill="#2f9e44"/>
+
+  <!-- Row: GND rail full width -->
+  <line x1="190" y1="540" x2="610" y2="540" stroke="#1c1c1c" stroke-width="4"/>
+  <text x="620" y="545" font-size="13" fill="#1c1c1c" font-weight="bold">GND (0V)</text>
+  <g fill="#1c1c1c">
+    <circle cx="230" cy="540" r="4"/><circle cx="270" cy="540" r="4"/><circle cx="310" cy="540" r="4"/>
+    <circle cx="430" cy="540" r="4"/><circle cx="470" cy="540" r="4"/><circle cx="510" cy="540" r="4"/>
+  </g>
+
+  <!-- R1: V+ (x=270) to Node B (x=270) -->
+  <line x1="270" y1="140" x2="270" y2="190" stroke="#333" stroke-width="3"/>
+  <rect x="252" y="190" width="36" height="80" rx="8" fill="#e8d7a8" stroke="#8a6d3b" stroke-width="2"/>
+  <line x1="270" y1="270" x2="270" y2="300" stroke="#333" stroke-width="3"/>
+  <text x="300" y="235" font-size="15" font-weight="bold" fill="#333">R1</text>
+
+  <!-- R2: Node B (x=270) to GND (x=270) -->
+  <line x1="270" y1="300" x2="270" y2="390" stroke="#333" stroke-width="3"/>
+  <rect x="252" y="390" width="36" height="80" rx="8" fill="#e8d7a8" stroke="#8a6d3b" stroke-width="2"/>
+  <line x1="270" y1="470" x2="270" y2="540" stroke="#333" stroke-width="3"/>
+  <text x="300" y="435" font-size="15" font-weight="bold" fill="#333">R2</text>
+
+  <!-- R3: V+ (x=470) to Node D (x=470) -->
+  <line x1="470" y1="140" x2="470" y2="190" stroke="#333" stroke-width="3"/>
+  <rect x="452" y="190" width="36" height="80" rx="8" fill="#e8d7a8" stroke="#8a6d3b" stroke-width="2"/>
+  <line x1="470" y1="270" x2="470" y2="300" stroke="#333" stroke-width="3"/>
+  <text x="500" y="235" font-size="15" font-weight="bold" fill="#333">R3</text>
+
+  <!-- R4: Node D (x=470) to GND (x=470) -->
+  <line x1="470" y1="300" x2="470" y2="390" stroke="#333" stroke-width="3"/>
+  <rect x="452" y="390" width="36" height="80" rx="8" fill="#e8d7a8" stroke="#8a6d3b" stroke-width="2"/>
+  <line x1="470" y1="470" x2="470" y2="540" stroke="#333" stroke-width="3"/>
+  <text x="500" y="435" font-size="15" font-weight="bold" fill="#333">R4</text>
+
+  <!-- Note about branch separation -->
+  <path d="M330,300 L430,300" stroke="#999" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="380" y="318" text-anchor="middle" font-size="10" fill="#999">IKKE forbundet</text>
+  <text x="380" y="330" text-anchor="middle" font-size="10" fill="#999">(to separate grene)</text>
+
+  <!-- Legend -->
+  <rect x="150" y="565" width="14" height="14" fill="#e03131"/>
+  <text x="170" y="577" font-size="12" fill="#333">V+ (fælles for begge grene)</text>
+  <rect x="400" y="565" width="14" height="14" fill="#1c1c1c"/>
+  <text x="420" y="577" font-size="12" fill="#333">GND (fælles for begge grene)</text>
+</svg>
