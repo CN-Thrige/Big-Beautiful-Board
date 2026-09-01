@@ -5,6 +5,7 @@ u1 = Pin(6, Pin.IN, Pin.PULL_UP)
 u2 = Pin(7, Pin.IN, Pin.PULL_UP)
 
 d1 = Pin(0, Pin.OUT)
+d1_pwm = Pin(0, PWM)
 d2 = Pin(1, Pin.OUT)
 d3 = Pin(2, Pin.OUT)
 
