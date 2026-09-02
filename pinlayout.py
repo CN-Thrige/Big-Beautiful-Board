@@ -12,4 +12,3 @@ d4 = Pin(3, Pin.OUT)
 d5 = Pin(4, Pin.OUT)
 d6 = Pin(5, Pin.OUT)
 
-state = 0 
